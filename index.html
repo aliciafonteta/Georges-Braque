@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georges Braque - Blog Cubista</title>
+    <!-- favicon using the site logo (white version for visibility) -->
+    <link rel="icon" href="assets/icons/logo-white.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Geometric Background Elements -->
+    <div class="geometric-bg">
+        <div class="geo-shape shape-1"></div>
+        <div class="geo-shape shape-2"></div>
+        <div class="geo-shape shape-3"></div>
+        <div class="geo-shape shape-4"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="assets/icons/logo.svg" alt="Cubist Logo" class="logo-icon">
+                <h1 class="site-title">Georges Braque</h1>
+                <p class="site-subtitle">El Maestro del Cubismo</p>
+            </div>
+            <img src="assets/img/Georges-braque-retrato-picasso.png" alt="Retrato de Georges Braque" class="header-portrait">
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="nav-container">
+            <button class="hamburger-menu" id="hamburgerBtn" aria-label="Menú">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#obras" class="nav-link">Obras</a></li>
+                <li><a href="#biografia" class="nav-link">Biografía</a></li>
+                <li><a href="#cubismo" class="nav-link">Cubismo</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-wrapper" id="inicio">
+        <div class="content-container">
+            
+            <!-- Blog Posts -->
+            <main class="blog-content">
+
+                <div class="posts-header">
+                    <h2 class="section-title">Últimas Publicaciones</h2>
+                    <div class="header-accent"></div>
+                </div>
+
+
+                <!-- Blog Post 1 -->
+                <article id="post-1" class="blog-post">
+                    <div class="post-meta">
+                        <span class="post-date">15 Enero 2026</span>
+                        <span class="post-author">por María García</span>
+                    </div>
+                    <h3 class="post-title">La Revolución del Cubismo Analítico</h3>
+                    <div class="post-featured-image">
+                        <img src="assets/img/braque-picasso.jpg" 
+                             alt="Braque y Picasso" 
+                             style="background-color: #653118;">
+                    </div>
+                    <div class="post-content">
+                        <p>Georges Braque, junto con Pablo Picasso, revolucionó el arte moderno con el desarrollo del cubismo analítico entre 1908 y 1912. Esta fase del cubismo se caracterizó por la fragmentación de objetos en formas geométricas, presentándolos desde múltiples perspectivas simultáneamente.</p>
+                        <p>Braque descompuso guitarras, violines y naturalezas muertas en planos angulares y superpuestos, utilizando una paleta monocromática de ocres, grises y marrones. Esta restricción cromática permitía al espectador concentrarse en la estructura formal sin distracciones del color.</p>
+                        <blockquote class="post-quote">
+                            "No imito la naturaleza, trabajo junto a ella, en paralelo a ella."
+                            <cite>— Georges Braque</cite>
+                        </blockquote>
+                    </div>
+                    <a href="#" class="read-more">Leer más →</a>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article id="post-2" class="blog-post">
+                    <div class="post-meta">
+                        <span class="post-date">08 Enero 2026</span>
+                        <span class="post-author">por Carlos Ruiz</span>
+                    </div>
+                    <h3 class="post-title">El Papier Collé: Innovación en el Cubismo Sintético</h3>
+                    <div class="post-featured-image">
+                        <img src="assets/img/papier colle.jpg" 
+                             alt="papier colle" 
+                             style="background-color: #7F4A27;">
+                    </div>
+                    <div class="post-content">
+                        <p>En 1912, Braque introdujo una técnica revolucionaria: el papier collé (papel pegado). Pegando trozos de papel de periódico y papel pintado con imitación de madera sobre sus composiciones, Braque incorporó elementos de la realidad directamente en sus pinturas.</p>
+                        <p>Esta innovación marcó la transición hacia el cubismo sintético, donde las formas se volvieron más simples, los colores más brillantes, y la incorporación de textos y patrones añadió nuevas capas de significado. El papier collé influyó profundamente en el desarrollo del arte del siglo XX.</p>
+                    </div>
+                    <a href="#" class="read-more">Leer más →</a>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article id="post-3" class="blog-post">
+                    <div class="post-meta">
+                        <span class="post-date">29 Diciembre 2025</span>
+                        <span class="post-author">por Ana López</span>
+                    </div>
+                    <h3 class="post-title">Regreso a la Figura y el Color</h3>
+                    <div class="post-featured-image">
+                        <img src="assets/img/L’oiseau noir et l’oiseau blanc-1960.jpg" 
+                             alt="L’oiseau noir et l’oiseau blanc (1960)" 
+                             style="background-color: #885F3D;">
+                    </div>
+                    <div class="post-content">
+                        <p>Después de la Segunda Guerra Mundial, la obra de Braque experimentó una notable transformación. Sus últimas pinturas, especialmente la serie de pájaros, combinaban la estructura cubista con una sensibilidad lírica renovada y un uso más expansivo del color.</p>
+                        <p>Las figuras de pájaros en vuelo, con sus formas simplificadas pero elegantes, representaban no solo la libertad física sino también la libertad creativa que Braque había alcanzado tras décadas de experimentación. Estas obras tardías demuestran la continua evolución de un maestro que nunca dejó de innovar.</p>
+                    </div>
+                    <a href="#" class="read-more">Leer más →</a>
+                </article>
+
+                <!-- Blog Post 4 -->
+                <article id="post-4" class="blog-post">
+                    <div class="post-meta">
+                        <span class="post-date">15 Diciembre 2025</span>
+                        <span class="post-author">por Miguel Torres</span>
+                    </div>
+                    <h3 class="post-title">La Influencia de Cézanne en Braque</h3>
+                    <div class="post-featured-image">
+                        <img src="assets/img/Cuenco-de-fruta-1909.jpg" 
+                             alt="Cuenco de fruta" 
+                             style="background-color: #895A37;">
+                    </div>
+                    <div class="post-content">
+                        <p>Paul Cézanne fue una influencia crucial en el desarrollo artístico de Braque. La famosa exposición retrospectiva de Cézanne en 1907 tuvo un impacto profundo en el joven artista, quien quedó fascinado por la manera en que Cézanne construía formas usando planos de color.</p>
+                        <p>Braque adoptó el enfoque de Cézanne de "tratar la naturaleza mediante el cilindro, la esfera y el cono", pero lo llevó más allá, fragmentando estos volúmenes geométricos y reorganizándolos en el espacio pictórico. Esta síntesis entre la influencia de Cézanne y su propia visión resultó en el nacimiento del cubismo.</p>
+                    </div>
+                    <a href="#" class="read-more">Leer más →</a>
+                </article>
+            </main>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                
+                <!-- Search Widget -->
+                <div class="widget search-widget">
+                    <h3 class="widget-title">Buscar</h3>
+                    <form class="search-form" onsubmit="return handleSearch(event)">
+                        <div class="search-input-wrapper">
+                            <img src="assets/icons/search.svg" alt="Search" class="search-icon">
+                            <input type="text" 
+                                   class="search-input" 
+                                   placeholder="Buscar artículos..." 
+                                   id="searchInput">
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Subscribe Widget -->
+                <div class="widget subscribe-widget">
+                    <h3 class="widget-title">Suscríbete</h3>
+                    <p class="widget-description">Recibe las últimas publicaciones directamente en tu email</p>
+                    <form class="subscribe-form" onsubmit="return handleSubscribe(event)">
+                        <div class="input-group">
+                            <img src="assets/icons/mail.svg" alt="Email" class="input-icon">
+                            <input type="email" 
+                                   class="subscribe-input" 
+                                   placeholder="tu@email.com" 
+                                   id="subscribeEmail"
+                                   required>
+                        </div>
+                        <button type="submit" class="subscribe-button">
+                            Suscribirse
+                            <img src="assets/icons/send.svg" alt="Send" class="button-icon">
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Social Media Widget -->
+                <div class="widget social-widget">
+                    <h3 class="widget-title">Síguenos</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/kadart0081/" class="social-link" aria-label="Facebook">
+                            <img src="assets/icons/facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="https://x.com/artistbraque" class="social-link" aria-label="Twitter">
+                            <img src="assets/icons/twitter.svg" alt="Twitter">
+                        </a>
+                        <a href="https://www.instagram.com/georgesbraqueart/" class="social-link" aria-label="Instagram">
+                            <img src="assets/icons/instagram.svg" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Related Articles Widget -->
+                <div class="widget related-widget">
+                    <h3 class="widget-title">Artículos Relacionados</h3>
+                    <ul class="related-list">
+                        <li class="related-item">
+                            <a href="picasso-braque.html" class="related-link">
+                                <span class="related-title">Picasso y Braque: Una Amistad Artística</span>
+                                <span class="related-date">10 Ene 2026</span>
+                            </a>
+                        </li>
+                        <li class="related-item">
+                            <a href="cubismo-contemporaneo.html" class="related-link">
+                                <span class="related-title">El Cubismo en el Arte Contemporáneo</span>
+                                <span class="related-date">05 Ene 2026</span>
+                            </a>
+                        </li>
+                        <li class="related-item">
+                            <a href="tecnicas-mixtas.html" class="related-link">
+                                <span class="related-title">Técnicas Mixtas en el Cubismo</span>
+                                <span class="related-date">28 Dic 2025</span>
+                            </a>
+                        </li>
+                        <li class="related-item">
+                            <a href="legado-braque.html" class="related-link">
+                                <span class="related-title">El Legado de Braque en el Siglo XXI</span>
+                                <span class="related-date">20 Dic 2025</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Archive Widget -->
+                <div class="widget archive-widget">
+                    <h3 class="widget-title">Archivo del Blog</h3>
+                    <ul class="archive-list">
+                        <li class="archive-item">
+                            <a href="#" class="archive-link">
+                                <span class="archive-month">Enero 2026</span>
+                                <span class="archive-count">3</span>
+                            </a>
+                        </li>
+                        <li class="archive-item">
+                            <a href="#" class="archive-link">
+                                <span class="archive-month">Diciembre 2025</span>
+                                <span class="archive-count">5</span>
+                            </a>
+                        </li>
+                        <li class="archive-item">
+                            <a href="#" class="archive-link">
+                                <span class="archive-month">Noviembre 2025</span>
+                                <span class="archive-count">4</span>
+                            </a>
+                        </li>
+                        <li class="archive-item">
+                            <a href="#" class="archive-link">
+                                <span class="archive-month">Octubre 2025</span>
+                                <span class="archive-count">6</span>
+                            </a>
+                        </li>
+                        <li class="archive-item">
+                            <a href="#" class="archive-link">
+                                <span class="archive-month">Septiembre 2025</span>
+                                <span class="archive-count">3</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </aside>
+        </div>
+    </div>
+
+    <!-- Secciones de Navegación -->
+    
+
+    <!-- Sección Obras -->
+    <section id="obras" class="nav-section alt-bg">
+        <div class="section-container">
+            <h2 class="section-title">Obras Maestras de Braque</h2>
+            
+            <div class="obras-grid">
+                <div class="obra-item">
+                    <div class="obra-image">
+                        <img src="assets/img/Georges_Braque-Violin_and_Palette-1909.jpg" alt="Violín y paleta (1909)">
+                    </div>
+                    <h3>Violín y paleta (1909) </h3>
+                    <p>Una de sus obras más representativas del cubismo analítico, donde fragmenta los instrumentos en múltiples planos geométricos.</p>
+                </div>
+
+                <div class="obra-item">
+                    <div class="obra-image">
+                        <img src="assets/img/Cuenco-de-fruta-1909.jpg" alt="Cuenco de fruta (1909)">
+                    </div>
+                    <h3>Cuenco de fruta (1909) </h3>
+                    <p>Una de sus obras más representativas del cubismo analítico, donde fragmenta los instrumentos en múltiples planos geométricos.</p>
+                </div>
+                
+                <div class="obra-item">
+                    <div class="obra-image">
+                        <img src="assets/img/Violin-and-Candlestick-Braque-Georges-1910.jpg" alt="Violín y candelabro (1910)">
+                    </div>
+                    <h3>Violín y candelabro (1910)</h3>
+                    <p>Serie revolucionaria donde Braque incorpora papel de periódico y otros materiales en sus composiciones.</p>
+                </div>
+                
+                <div class="obra-item">
+                    <div class="obra-image">
+                        <img src="assets/img/mujer-con-mandolina-1910.jpg" alt="Mujer y mandolina (1910)">
+                    </div>
+                    <h3>Mujer y mandolina (1910)</h3>
+                    <p>Sus últimas obras muestran una evolución hacia formas más simples y líricas, manteniendo elementos cubistas.</p>
+                </div>
+                
+                <div class="obra-item">
+                    <div class="obra-image">
+                        <img src="assets/img/the-portuguese-1911.jpg" alt="El portugués (1911)">
+                    </div>
+                    <h3>El portugués (1911)</h3>
+                    <p>Demostración magistral de cómo Braque descompone objetos cotidianos en sus elementos geométricos fundamentales.</p>
+                </div>
+
+                <div class="obra-item">
+                    <div class="obra-image">
+                        <img src="assets/img/mujer-con-guitarra-1913.jpg" alt="Mujer con guitarra (1913)">
+                    </div>
+                    <h3>Mujer con guitarra (1913)</h3>
+                    <p>Demostración magistral de cómo Braque descompone objetos cotidianos en sus elementos geométricos fundamentales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Biografía -->
+    <section id="biografia" class="nav-section">
+        <div class="section-container">
+            <h2 class="section-title">Biografía de Georges Braque</h2>
+            
+            <div class="biografia-content">
+                <div class="bio-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">1882</div>
+                        <div class="timeline-content">
+                            <h3>Nacimiento</h3>
+                            <p>Nace el 13 de mayo en Argenteuil, Francia. Hijo de un pintor aficionado.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">1900-1906</div>
+                        <div class="timeline-content">
+                            <h3>Formación Artística</h3>
+                            <p>Estudia en la Academia Humbert de París. Inicialmente influenciado por el Fauvismo de Matisse.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">1907-1908</div>
+                        <div class="timeline-content">
+                            <h3>Encuentro con Picasso</h3>
+                            <p>Conoce a Pablo Picasso y juntos revolucionan el arte moderno con el desarrollo del Cubismo.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">1908-1912</div>
+                        <div class="timeline-content">
+                            <h3>Cubismo Analítico</h3>
+                            <p>Período más fructífero en la creación de obras cubistas analíticas, trabajando en paralelo con Picasso.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">1912</div>
+                        <div class="timeline-content">
+                            <h3>Papier Collé</h3>
+                            <p>Inventa la técnica del papier collé, que marca la transición al cubismo sintético.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">1939-1945</div>
+                        <div class="timeline-content">
+                            <h3>Segunda Guerra Mundial</h3>
+                            <p>Permanece en París durante la ocupación. Continúa creando a pesar de las dificultades.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">1945-1960</div>
+                        <div class="timeline-content">
+                            <h3>Últimos Años</h3>
+                            <p>Evoluciona su estilo hacia formas más líricas. La serie de pájaros se convierte en su tema obsesivo.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">1963</div>
+                        <div class="timeline-content">
+                            <h3>Fallecimiento</h3>
+                            <p>Muere el 31 de agosto a los 81 años. Su legado trasciende el cubismo y marca la historia del arte.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Cubismo -->
+    <section id="cubismo" class="nav-section alt-bg">
+        <div class="section-container">
+            <h2 class="section-title">El Cubismo: Movimiento Revolucionario</h2>
+            
+            <div class="cubismo-content">
+                <div class="cubismo-intro">
+                    <p class="intro-text">
+                        El Cubismo fue un movimiento artístico revolucionario que transformó la forma en que los artistas 
+                        perciben y representan la realidad. Desarrollado por Pablo Picasso y Georges Braque a principios del 
+                        siglo XX, el cubismo representa un quiebre radical con la tradición artística occidental.
+                    </p>
+                </div>
+                
+                <div class="cubismo-fases">
+                    <div class="fase">
+                        <h3> Cubismo Analítico (1908-1912)</h3>
+                        <p>
+                            Este período se caracteriza por la fragmentación radical de los objetos. Braque y Picasso descomponen 
+                            las formas en planos geométricos que se superponen y fragmentan, presentando múltiples perspectivas 
+                            simultáneamente. La paleta es monocromática (ocres, grises, marrones) para enfatizar la estructura.
+                        </p>
+                    </div>
+                    
+                    <div class="fase">
+                        <h3> Cubismo Sintético (1912-1914)</h3>
+                        <p>
+                            Braque revoluciona nuevamente con la invención del papier collé. En lugar de fragmentar completamente, 
+                            se recomponen elementos de la realidad (periódicos, papeles pintados) directamente sobre la tela. 
+                            Las formas se simplifican y los colores vuelven más vibrantes.
+                        </p>
+                    </div>
+                    
+                    <div class="fase">
+                        <h3> Legado Cubista</h3>
+                        <p>
+                            El cubismo influyó profundamente en el desarrollo del arte moderno. Artistas posteriores adoptaron 
+                            sus principios de fragmentación, múltiples perspectivas y recombinación de elementos. El movimiento 
+                            abrió nuevas posibilidades para la expresión artística más allá de la representación realista.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="principios">
+                    <h3>Principios Fundamentales del Cubismo</h3>
+                    <ul class="principios-list">
+                        <li><strong>Múltiples perspectivas:</strong> Ver los objetos desde varios ángulos simultáneamente</li>
+                        <li><strong>Fragmentación:</strong> Descomponer las formas en sus elementos geométricos básicos</li>
+                        <li><strong>Geometría:</strong> Usar cilindros, esferas y conos como base estructural</li>
+                        <li><strong>Planos superpuestos:</strong> Crear profundidad mediante la superposición de formas</li>
+                        <li><strong>Abandono del realismo:</strong> Priorizar la estructura sobre la representación fiel</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="nav-section alt-bg">
+        <div class="section-container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="contact-subtitle">¿Tienes preguntas o comentarios sobre Georges Braque?</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>📧 Email</h3>
+                        <p><a href="mailto:info@georgesbraque-blog.com">info@georgesbraque-blog.com</a></p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3>📞 Teléfono</h3>
+                        <p><a href="tel:+34123456789">+34 123 456 789</a></p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h3>📍 Ubicación</h3>
+                        <p>Avenida del Mar, 34, Castellón</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-section">
+                    <h3>Envía un Mensaje</h3>
+                    <form class="quick-contact-form" onsubmit="return handleQuickContact(event)">
+                        <div class="form-group">
+                            <input type="text" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Tu email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <!-- Footer Info -->
+            <div class="footer-section">
+                <h3 class="footer-title">Sobre Este Blog</h3>
+                <p class="footer-text">
+                    Un espacio dedicado a explorar la vida y obra de Georges Braque, 
+                    uno de los fundadores del movimiento cubista que revolucionó el arte del siglo XX.
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="footer-title">Enlaces Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#obras">Obras</a></li>
+                    <li><a href="#biografia">Biografía</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="footer-title">Contacto</h3>
+                <p class="footer-text">
+                    Email: info@georgesbraque-blog.com<br>
+                    Tel: +34 123 456 789
+                </p>
+            </div>
+
+            <!-- Comments Section -->
+            <div class="comments-section">
+                <h3 class="comments-title">Deja un Comentario</h3>
+                <form class="comment-form" onsubmit="return handleComment(event)">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" 
+                                   class="form-input" 
+                                   placeholder="Nombre" 
+                                   id="commentName"
+                                   required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" 
+                                   class="form-input" 
+                                   placeholder="Email" 
+                                   id="commentEmail"
+                                   required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-textarea" 
+                                  placeholder="Tu comentario..." 
+                                  id="commentText"
+                                  rows="4"
+                                  required></textarea>
+                    </div>
+                    <button type="submit" class="comment-submit">
+                        Enviar Comentario
+                        <img src="assets/icons/send.svg" alt="Send" class="button-icon">
+                    </button>
+                </form>
+
+                <!-- Comments Display -->
+                <div class="comments-list" id="commentsList">
+                    <div class="comment-item">
+                        <div class="comment-header">
+                            <span class="comment-author">Laura Martínez</span>
+                            <span class="comment-date">12 Enero 2026</span>
+                        </div>
+                        <p class="comment-text">
+                            Excelente análisis del cubismo analítico. Me encanta cómo Braque logró 
+                            fragmentar la realidad manteniendo la coherencia compositiva.
+                        </p>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment-header">
+                            <span class="comment-author">Pedro Pascal</span>
+                            <span class="comment-date">10 Enero 2026</span>
+                        </div>
+                        <p class="comment-text">
+                            La técnica del papier collé fue verdaderamente revolucionaria. 
+                            Gracias por compartir este contenido tan interesante.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Georges Braque Blog. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Modal for displaying full posts or related content -->
+    <div id="postModal" class="modal" aria-hidden="true">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Cerrar ventana">&times;</button>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
